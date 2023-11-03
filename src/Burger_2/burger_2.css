@@ -1,0 +1,150 @@
+@media screen  and (max-width: 1400px) and (min-width:600px)
+{   .container-burger{
+      width:70px;
+    }
+    .sidebar{
+        background: rgb(0, 23, 140) !important;
+        color:white;
+        height: 226vh;
+        width: 200px;
+        transition: all 0.5s;
+        margin-top:0px;
+        margin-left: -10px;
+        box-shadow: 0px 0px 5px 0px;
+        z-index: 1000;
+        position: relative;
+    }
+    .top_section{
+        display: flex;
+        align-items:center;
+        padding:20px 15px;
+    }
+    .logo{
+        height: 1.5cm;
+        margin-left: 12px;
+    }
+    .bars{
+        display: flex;
+        font-size: 25px;
+        margin-left: 50px;
+    }
+    .link{
+        display: flex;
+        /* color: black; */
+        padding: 10px 15px;
+        gap: 15px;
+        transition: all 0.5s;
+    }
+    .link:hover{
+        background:lightskyblue;
+        color: #000;
+        transition: all 0.5s;
+    }
+    .active{
+        background:none !important;
+        color:rgb(116, 137, 79) !important;
+    }
+    .icon, .link_text{
+        font-size: 20px;
+    }
+    
+}
+
+@media screen  and (max-width: 600px) and (min-width:414px)
+{
+.sidebar{
+    background: #2196F3 !important;
+    color:white;
+    height: 626vh;
+    width: 200px;
+    transition: all 0.5s;
+    margin-top:-39px;
+    margin-left: -10px;
+    box-shadow: 0px 0px 5px 0px;
+    z-index: 1000;
+    position: relative;
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+}
+.logo{
+    height: 1.5cm;
+    margin-left: 12px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    /* color: black; */
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background:lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+}
+.active{
+    background:none !important;
+    color:rgb(116, 137, 79) !important;
+}
+.icon, .link_text{
+    font-size: 20px;
+}
+
+}
+
+@media screen  and (max-width: 414px) and (min-width:350px)
+{
+    .sidebar{
+        background: black !important;
+        color:white;
+        height: 172.5vh;
+        width: 200px;
+        transition: all 0.5s;
+        margin-top:-39px;
+        margin-left: -10px;
+        box-shadow: 0px 0px 0px 0px !important;
+        z-index: 1000;
+        position: relative;
+    }
+    .top_section{
+        display: flex;
+        align-items:center;
+        padding:20px 15px;
+    }
+    .logo{
+        height: 1.5cm;
+        margin-left: 12px;
+    }
+    .bars{
+        display: flex;
+        font-size: 25px;
+        margin-left: 50px;
+    }
+    .link{
+        display: flex;
+        /* color: black; */
+        padding: 10px 15px;
+        gap: 15px;
+        transition: all 0.5s;
+    }
+    .link:hover{
+        background:lightskyblue;
+        color: #000;
+        transition: all 0.5s;
+    }
+    .active{
+        background:none !important;
+        color:rgb(116, 137, 79) !important;
+    }
+    .icon, .link_text{
+        font-size: 20px;
+    }
+}
